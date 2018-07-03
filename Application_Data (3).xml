@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="budget" version="1.0" profile="User" homePage="action" state="ACTIVATED" layout="custompage_AppLayoutPageV76Langues3V1" theme="custompage_bootstrapdefaulttheme">
+        <displayName>Budget</displayName>
+        <description></description>
+        <iconPath></iconPath>
+        <applicationPages>
+            <applicationPage customPage="custompage_ActionsEnAttente" token="action"/>
+            <applicationPage customPage="custompage_BudgetProposalsTable" token="table"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="action">
+                <displayName>Requests</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="table">
+                <displayName>Table</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>
